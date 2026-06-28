@@ -1,3 +1,3 @@
 CC = gcc
-mem: mem.c
-	$(CC) mem.c -o mem -Wall -Wextra -pedantic -std=c99
+text_editor: text_editor.c
+	$(CC) text_editor.c -o text_editor -Wall -Wextra -pedantic -std=c99
